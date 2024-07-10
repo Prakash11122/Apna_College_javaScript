@@ -125,35 +125,43 @@
 
 
 
-let array = [1,3,58,89,99];
+// let array = [1,3,58,89,99];
 
-let max = array.reduce((a,b) => {
+// let max = array.reduce((a,b) => {
 
-    if( b > a){
-        return b;
-    }else{
-        return a
-    }
+//     if( b > a){
+//         return b;
+//     }else{
+//         return a
+//     }
 
-});
+// });
 
-console.log(max)
-
-
-
-//Create a function to find the min number in an array.
-
-let arr = [1,3,5,6,8,99,77,55];
-
-let less = arr.reduce((min, max) => {
-    if(min < max){
-        return min;
-    }else{
-        return max
-    }
-});
-console.log(less)
-                    
+// console.log(max)
 
 
+
+                        //Create a function to find the min number in an array.
+
+// let arr = [1,3,5,6,8,99,77,55];
+
+// let less = arr.reduce((min, max) => {
+//     if(min < max){
+//         return min;
+//     }else{
+//         return max
+//     }
+// });
+// console.log(less)
+
+
+
+
+// Check if all numbers in our array are multiples of 10 or not.
+
+
+let nums = [10,20,30,40];
+
+let ans = nums.every((el) => el % 10 == 0);
+console.log(ans)
 
