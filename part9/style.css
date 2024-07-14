@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+}
+#mainImage{
+    height: 300px;
+    width: 250px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: lightgrey;
+    border: 0.25px solid black;
+    padding: 1rem;
+
+}
+
+.boxLink {
+    text-decoration: none;
+}
+
+.oldImage{
+    height: 200px;
+    width: 200px;
+    margin-right: 1rem;
+}
+
+#description{
+    background-color: antiquewhite;
+}
