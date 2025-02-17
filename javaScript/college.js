@@ -1,5 +1,5 @@
 // console.log("Thanks God for everything ");
-// console.log("thanks gor for making me successful man")
+// console.log("thanks god for making me successful man")
 // let a=10;
 // let b=20;
 // b=a;
